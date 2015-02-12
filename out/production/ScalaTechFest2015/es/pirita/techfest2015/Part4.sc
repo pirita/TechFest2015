@@ -12,12 +12,6 @@ def add2[T <: Persona](list: List[T])(element: T): List[T] = element :: list //B
 def add2[T >: Persona](list: List[T])(element: T): List[T] = element :: list //Bound Subclass
 def add2[T : Persona](list: List[T])(element: T): List[T] = element :: list //Bound Same class
 
-//My own type
-
-type Cosa = Map[String, (String, Int)]
-
-val money: Cosa = Map.empty[String, (String, Int)]
-
 
 //////////////
 //////////////

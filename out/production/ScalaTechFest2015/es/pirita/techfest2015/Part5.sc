@@ -93,14 +93,7 @@ println(randoms.head)
 
 println(randoms.drop(1).head)
 
-////
-//par
-///
 
-val lista = (1 to 10000).toList
-lista.map(_ + 42)
-
-lista.par.map(_ + 42)
 
 
 
