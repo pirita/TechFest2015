@@ -21,3 +21,6 @@ project/project
 *.ipr
 *.iws
 .history
+
+# Java/Scala
+.class
